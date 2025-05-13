@@ -15,15 +15,12 @@ A personal project that implements a search-based algorithm to simulate autonomo
 
 ```
 spotfinder/
-├── assets/                 ← (Optional) Images or animations
-├── maps/                   ← Procedural or saved grid maps
-├── src/
-│   ├── grid.py             ← Grid/map generation and display
-│   ├── astar.py            ← A* pathfinding logic
-│   ├── bfs.py              ← Reachability check via BFS
-│   └── animate.py          ← Matplotlib-based visualization
-├── main.py                 ← Entry point to run the full simulation
-├── requirements.txt        ← Python dependencies
+├── assets/                 ← Folder to store generated visuals (e.g. path plots)
+│ └── path_example.png
+├── grid_map.py             ← Map generation and grid layout definitions
+├── main.py                 ← Main entry point for running the simulation
+├── planner.py              ← A* path planning algorithm implementation
+├── visualizer.py           ← Functions for static and animated visualization
 └── README.md               ← This file
 ```
 
