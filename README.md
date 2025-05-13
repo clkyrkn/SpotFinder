@@ -69,7 +69,7 @@ If map is unsolvable, you’ll receive a “Path not found” message with unrea
 
 ## Example Output
 
-![Sample Path](assets/example.png)
+![Sample Path](assets/path_example.png)
 
 ## Tech Stack
 
